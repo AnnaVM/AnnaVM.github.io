@@ -11,6 +11,7 @@ body {
   font-style: italic;
 }
 .intro {
+  background-image: url('/img/sunset_people_small.JPG');
   position: relative;
   width: 100%;
   height: 100%;
@@ -51,7 +52,7 @@ section {
   top: 0;
   background: #000;
   z-index: 2;
-  opacity: 0.6;
+  opacity: 0.5;
   filter: alpha(opacity=60);
 }
 .heading {
@@ -576,9 +577,9 @@ a:focus {
 .img-rounded {
   border-radius: 0;
   border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
 }
 hr {
   margin-top: 22px;
